@@ -1,0 +1,62 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteBase /
+
+DirectoryIndex default.php
+
+Options Includes FollowSymLinks MultiViews
+# Add www if there is non.
+RewriteCond %{HTTP_HOST} ^designerbase.co.za$
+RewriteRule (.*) https://www.designerbase.co.za/$1 [R=301,L]
+# Add https if there is non.
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.designerbase.co.za/$1 [L,R=301]
+############################################################## ERROR PAGES, HIDE THE PHP
+RewriteRule ^401/?$ /errors/401.php [QSA,L]
+RewriteRule ^402/?$ /errors/402.php [QSA,L]
+RewriteRule ^403/?$ /errors/403.php [QSA,L]
+RewriteRule ^404/?$ /errors/404.php [QSA,L]
+RewriteRule ^405/?$ /errors/405.php [QSA,L]
+RewriteRule ^408/?$ /errors/408.php [QSA,L]
+RewriteRule ^409/?$ /errors/409.php [QSA,L]
+RewriteRule ^414/?$ /errors/414.php [QSA,L]
+RewriteRule ^415/?$ /errors/415.php [QSA,L]
+RewriteRule ^500/?$ /errors/500.php [QSA,L]
+RewriteRule ^502/?$ /errors/502.php [QSA,L]
+RewriteRule ^505/?$ /errors/505.php [QSA,L]
+############################################################## ERROR PAGES, SHOW ERRORS
+ErrorDocument 401 /401
+ErrorDocument 402 /402
+ErrorDocument 403 /403
+ErrorDocument 404 /404
+ErrorDocument 405 /405
+ErrorDocument 408 /408
+ErrorDocument 409 /409
+ErrorDocument 414 /414
+ErrorDocument 415 /415
+ErrorDocument 500 /500
+ErrorDocument 502 /502
+ErrorDocument 505 /505
+############################################################## CATALOGUE
+RewriteRule ^catalog/([^/\.]+)/?$						catalog/default.php?category=$1                         [QSA,L]
+RewriteRule ^catalog/([^/\.]+)/([^/\.]+)/([^/\.]+)/?$	catalog/details.php?category=$1&url=$2&code=$3          [QSA,L]
+############################################################## BASKET
+RewriteRule ^basket/edit/?$                 basket/edit.php                                                         [QSA,L]
+RewriteRule ^basket/checkout/?$             basket/checkout.php                                                     [QSA,L]
+RewriteRule ^basket/result/?$               basket/result.php                                                       [QSA,L] 
+RewriteRule ^basket/empty/([^/\.]+)/?$      basket/empty.php?code=$1                                                [QSA,L]
+############################################################## DESIGNER CATALOGUE
+RewriteRule ^designer/([^/\.]+)/?$                      designers/catalog.php?designer=$1                       [QSA,L]
+RewriteRule ^designer/([^/\.]+)/([^/\.]+)/([^/\.]+)/?$	designers/details.php?designer=$1&product=$2&code=$3    [QSA,L]
+RewriteRule ^designer/store/([^/\.]+)/?$                designers/store.php?code=$1                             [QSA,L]
+############################################################## DESIGNER PROFILE
+RewriteRule ^profile/([^/\.]+)/?$		profiles/details.php?url=$1                                             [QSA,L]
+############################################################## MAILERS
+RewriteRule ^mailer/view/([^/\.]+)/?$			mailer/view.php?code=$1                                         [QSA,L]
+RewriteRule ^mailer/tracking/([^/\.]+)/?$		mailer/tracking.php?tracking=$1                                 [QSA,L]
+RewriteRule ^register/activate/([^/\.]+)/?$		register/activate.php?hash=$1                                   [QSA,L]
+############################################################## DESIGNER PROFILES
+RewriteRule ^maxhosa-by-laduma/?$                       profile/default.php?code=maxhosa-by-laduma                      [QSA,L]
+RewriteRule ^maxhosa-by-laduma/([^/\.]+)/([^/\.]+)/?$   profile/details.php?code=maxhosa-by-laduma&url=$1&catalog=$2    [QSA,L]

@@ -1,0 +1,54 @@
+[12-Aug-2018 04:52:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CATEGORY', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('item.item_type ...', 'CATEGORY', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('item.item_type ...', 'CATEGORY', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/item.php(55): Zend_Db_Select->where('item.item_type ...', 'CATEGORY')
+#5 /home/designerbaseco/public_html/includes/header.php(15): class_item->getByType('CATEGORY')
+#6 /home/designerbaseco/pu in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:52:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CATEGORY', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('item.item_type ...', 'CATEGORY', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('item.item_type ...', 'CATEGORY', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/item.php(55): Zend_Db_Select->where('item.item_type ...', 'CATEGORY')
+#5 /home/designerbaseco/public_html/includes/header.php(15): class_item->getByType('CATEGORY')
+#6 /home/designerbaseco/pu in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:52:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CATEGORY', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('item.item_type ...', 'CATEGORY', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('item.item_type ...', 'CATEGORY', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/item.php(55): Zend_Db_Select->where('item.item_type ...', 'CATEGORY')
+#5 /home/designerbaseco/public_html/includes/header.php(15): class_item->getByType('CATEGORY')
+#6 /home/designerbaseco/pu in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:53:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CATEGORY', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('item.item_type ...', 'CATEGORY', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('item.item_type ...', 'CATEGORY', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/item.php(55): Zend_Db_Select->where('item.item_type ...', 'CATEGORY')
+#5 /home/designerbaseco/public_html/includes/header.php(15): class_item->getByType('CATEGORY')
+#6 /home/designerbaseco/pu in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:54:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CATEGORY', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('item.item_type ...', 'CATEGORY', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('item.item_type ...', 'CATEGORY', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/item.php(55): Zend_Db_Select->where('item.item_type ...', 'CATEGORY')
+#5 /home/designerbaseco/public_html/includes/header.php(15): class_item->getByType('CATEGORY')
+#6 /home/designerbaseco/pu in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:54:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CATEGORY', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('item.item_type ...', 'CATEGORY', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('item.item_type ...', 'CATEGORY', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/item.php(55): Zend_Db_Select->where('item.item_type ...', 'CATEGORY')
+#5 /home/designerbaseco/public_html/includes/header.php(15): class_item->getByType('CATEGORY')
+#6 /home/designerbaseco/pu in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333

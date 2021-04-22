@@ -1,0 +1,116 @@
+<html>
+<head>
+	<title>DesignerBase</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />	
+	{literal}
+	<style type="text/css">
+	.list a {color: #cc0000; text-transform: uppercase; font-family: Verdana; font-size: 11px; text-decoration: none;}
+	table.gridtable {
+		font-family: verdana,arial,sans-serif;
+		font-size:11px;
+		color:#333333;
+		border-width: 1px;
+		border-color: #666666;
+		border-collapse: collapse;
+	}
+	table.gridtable th {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #666666;
+		background-color: #dedede;
+	}
+	table.gridtable td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #666666;
+		background-color: #ffffff;
+	}	
+	</style>
+	{/literal}
+</head>
+<body marginheight="0" topmargin="0" marginwidth="0" bgcolor="#c5c5c5" leftmargin="0">
+<table cellspacing="0" border="0" cellpadding="0" width="100%">
+	<tr>
+		<td valign="top">
+			<table cellspacing="0" border="0" align="center" style="background: #fff; border: 1px solid #ccc; margin-top: 30px; margin-bottom: 30px;" cellpadding="0" width="900">
+				<tr>
+					<td valign="top">
+						<!-- header -->
+						<table cellspacing="0" border="0"  cellpadding="0" width="900">
+							<tr>
+								<td class="header-text" height="50" valign="top" style="color: #999; font-family: Verdana; font-size: 10px; text-transform: uppercase; padding: 0 20px;" width="540" colspan="2">
+									<br /><br /><webversion style="color: #990000; text-decoration: none;">DesignerBase Mailer - {$smarty.now|date_format:"%A, %B %e, %Y"}</webversion>
+								</td>
+							</tr>
+							<tr>							
+								<td class="main-title" height="5" align="center" valign="top" style="padding: 0 20px; font-size: 25px; font-family: Georgia;" width="750" colspan="2">
+									<b>DesignerBase</b>
+								</td>							
+							</tr>	
+							<tr>
+								<td class="main-title" height="5" valign="top" style="padding: 0 20px; font-size: 25px; font-family: Georgia;" width="900" colspan="2">
+								<br />Successful Online Payment Confirmation
+								</td>							
+							</tr>
+						</table>
+						<!-- / header -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- content -->
+						<table cellspacing="0" border="0" cellpadding="0" width="900">
+							<tr>
+								<td class="content-copy" valign="top" style="padding: 0 20px; color: #000; font-size: 14px; font-family: Georgia; line-height: 20px;" colspan="2">
+									<br />
+									<p>Dear {$checkout._checkout_name}, </p>
+									<p>Thank you for sending an enquiry via our website to the designer. Please see below items that you are ordering as well as their respective designers.</p>
+									<table width="100%" class="gridtable">
+										<tr>
+											<th>Product</th>
+											<th>Extra Info</th>
+											<th>Price</th>
+											<th>Quantity</th>
+											<th>Total</th>
+										</tr>
+										{foreach from=$checkoutlistData item=item name=checkoutitem}
+											<tr>
+												<td valign="top"><img src="http://www.designerbase.co.za{$item.image_path}tmb_{$item.image_code}{$item.image_ext}" width="50" /></td>
+												<td valign="top">{$item.product_name}</td>
+												<td valign="top">{$item._trolley_message}</td>
+												<td valign="top">{$item._trolley_quantity}</td>
+											</tr>
+										{/foreach}
+									</table>
+									<br /><br />
+									<a style="text-decoration: none; color: red;" href="http://www.designerbase.co.za/mailer/view/{$tracking}">Click to view on browser</a>
+								</td>
+							</tr>
+						</table>
+						<!--  / content -->
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" width="100%">
+						<!-- footer -->
+						<table cellspacing="0" border="0" height="100" cellpadding="0" width="100%">
+							<tr> 
+								<td class="copyright" height="100" align="center" valign="top" style="padding: 0 20px; color: #999; font-family: Verdana; font-size: 10px; text-transform: uppercase; line-height: 20px;" width="100%" colspan="2">
+									Cape Town, Western Cape, South Africa<br />
+									info@designerbase.co.za <br />
+									{$smarty.now|date_format:"%A, %B %e, %Y"}<br />
+								</td>
+							</tr>
+						</table>
+						<!-- / end footer -->
+					</td>
+				</tr>				
+			</table>
+		</td>
+	</tr>
+</table>
+<img src="http://www.designerbase.co.za/mailer/tracking/{$tracking}" width="0px" height="0px" />
+</body>
+</html>

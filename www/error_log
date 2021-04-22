@@ -1,0 +1,50 @@
+[12-Aug-2018 04:53:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('BANNER', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('advert_type = ?', 'BANNER', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('advert_type = ?', 'BANNER', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/advert.php(69): Zend_Db_Select->where('advert_type = ?', 'BANNER')
+#5 /home/designerbaseco/public_html/default.php(19): class_advert->dateRange('BANNER', 'TOP', 'HOME')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:53:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('BANNER', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('advert_type = ?', 'BANNER', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('advert_type = ?', 'BANNER', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/advert.php(69): Zend_Db_Select->where('advert_type = ?', 'BANNER')
+#5 /home/designerbaseco/public_html/default.php(19): class_advert->dateRange('BANNER', 'TOP', 'HOME')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:54:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('BANNER', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('advert_type = ?', 'BANNER', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('advert_type = ?', 'BANNER', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/advert.php(69): Zend_Db_Select->where('advert_type = ?', 'BANNER')
+#5 /home/designerbaseco/public_html/default.php(19): class_advert->dateRange('BANNER', 'TOP', 'HOME')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 05:00:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('BANNER', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('advert_type = ?', 'BANNER', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('advert_type = ?', 'BANNER', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/advert.php(69): Zend_Db_Select->where('advert_type = ?', 'BANNER')
+#5 /home/designerbaseco/public_html/default.php(19): class_advert->dateRange('BANNER', 'TOP', 'HOME')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[24-Aug-2018 07:00:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('BANNER', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('advert_type = ?', 'BANNER', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('advert_type = ?', 'BANNER', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/advert.php(69): Zend_Db_Select->where('advert_type = ?', 'BANNER')
+#5 /home/designerbaseco/public_html/default.php(19): class_advert->dateRange('BANNER', 'TOP', 'HOME')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333

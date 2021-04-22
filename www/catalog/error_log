@@ -1,0 +1,190 @@
+[12-Aug-2018 04:53:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('YEL6665L', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'YEL6665L', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'YEL6665L', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'YEL6665L')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('YEL6665L')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:53:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('YEL6665L', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'YEL6665L', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'YEL6665L', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'YEL6665L')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('YEL6665L')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:59:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('PUL6696M', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'PUL6696M', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'PUL6696M', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'PUL6696M')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('PUL6696M')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-Aug-2018 04:59:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('PUL6696M', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'PUL6696M', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'PUL6696M', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'PUL6696M')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('PUL6696M')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[24-Aug-2018 06:48:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('YQH6537X', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'YQH6537X', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'YQH6537X', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'YQH6537X')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('YQH6537X')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[24-Aug-2018 06:48:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('YQH6537X', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'YQH6537X', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'YQH6537X', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'YQH6537X')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('YQH6537X')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[24-Aug-2018 06:50:37 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('EQE4019B', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'EQE4019B', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'EQE4019B', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'EQE4019B')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('EQE4019B')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[24-Aug-2018 06:55:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('UPH9416M', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'UPH9416M', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'UPH9416M', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'UPH9416M')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('UPH9416M')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Aug-2018 11:50:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CNB7242K', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'CNB7242K', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'CNB7242K', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'CNB7242K')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('CNB7242K')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Aug-2018 11:50:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CNB7242K', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'CNB7242K', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'CNB7242K', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'CNB7242K')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('CNB7242K')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Aug-2018 11:57:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('RQR7242Y', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'RQR7242Y', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'RQR7242Y', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'RQR7242Y')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('RQR7242Y')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Aug-2018 11:57:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('RQR7242Y', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'RQR7242Y', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'RQR7242Y', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'RQR7242Y')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('RQR7242Y')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Aug-2018 11:59:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('GAB4341U', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'GAB4341U', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'GAB4341U', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'GAB4341U')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('GAB4341U')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Aug-2018 11:59:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('GAB4341U', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'GAB4341U', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'GAB4341U', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'GAB4341U')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('GAB4341U')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[15-Oct-2018 06:48:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CBY0528E', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'CBY0528E', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'CBY0528E', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'CBY0528E')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('CBY0528E')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[15-Oct-2018 06:48:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CBY0528E', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'CBY0528E', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'CBY0528E', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'CBY0528E')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('CBY0528E')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[20-Oct-2018 16:48:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('AGS1081S', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'AGS1081S', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'AGS1081S', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'AGS1081S')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('AGS1081S')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[20-Oct-2018 16:50:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CYM2385L', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'CYM2385L', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'CYM2385L', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'CYM2385L')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('CYM2385L')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[20-Oct-2018 16:50:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (110)' in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('CYM2385L', NULL)
+#2 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('comment_deleted...', 'CYM2385L', NULL)
+#3 /home/designerbaseco/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('comment_deleted...', 'CYM2385L', NULL, true)
+#4 /home/designerbaseco/public_html/library/classes/class/catalog.php(26): Zend_Db_Select->where('comment_deleted...', 'CYM2385L')
+#5 /home/designerbaseco/public_html/catalog/details.php(29): class_catalog->getByCode('CYM2385L')
+#6 {main}
+  thrown in /home/designerbaseco/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333

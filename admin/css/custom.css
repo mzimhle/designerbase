@@ -1,0 +1,18 @@
+.error {
+	color:#b90000;
+	font-weight:bold;
+	margin: 0 !important;
+}
+.success {
+	color:green;
+	font-weight:bold;
+	margin: 0 !important;
+}
+
+.fr {
+	float: right !important;
+}
+
+.fl {
+	float: left !important;
+}
